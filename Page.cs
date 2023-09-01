@@ -1,3 +1,4 @@
+
 public class Page
 {
     public string Content;
@@ -14,4 +15,10 @@ public class Page
         Book.WriteLine(Content);
         Console.ResetColor();
     }
+
+    internal void Add(Page pageVariabler)
+    {
+        throw new NotImplementedException();
+    }
+
 }

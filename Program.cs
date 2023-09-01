@@ -1,11 +1,11 @@
 ﻿List<Page> pages = new List<Page>();
-Page PageVariabler = new Page("Min første side");
-Page PageDatatyper = new Page("Min side 2");
-Page PageArrays = new Page("Min side 3");
-Page PageLister = new Page("Min side 3");
-Page PageLoops = new Page("Min side 3");
-Page PageMethods = new Page("Min side 3");
-Page PageClasses = new Page("Min side 3");
+Page PageVariabler = new Page("Variabler");
+Page PageDatatyper = new Page("Datatyper");
+Page PageArrays = new Page("Arrays");
+Page PageLister = new Page("Lister");
+Page PageLoops = new Page("Loops");
+Page PageMethods = new Page("Methods");
+Page PageClasses = new Page("Classes");
 
 pages.Add(PageVariabler);
 pages.Add(PageDatatyper);
@@ -15,8 +15,7 @@ pages.Add(PageLoops);
 pages.Add(PageMethods);
 pages.Add(PageClasses);
 
-Chapter Variabler = new Chapter("Variabler");
-Variabler.Pages = pages;
+Chapter Variabler = new Chapter("Variabler", pages);
 Chapter Datatyper = new Chapter("Datatyper", pages);
 Chapter Arrays = new Chapter("Arrays", pages);
 Chapter Lister = new Chapter("Lister", pages);
