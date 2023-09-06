@@ -28,7 +28,7 @@ A 'float' is a decimal number, like 1.234, 5.678, and 9.101112.
 A 'bool' is a true or false value, like true and false. ";
 
 
-public static string PageVariabler =
+public static string PageVariabler1 =
 @"...
 Variabler i C# er navngivne opbevaringssteder, der bruges til at gemme og manipulere data i et program. 
 De tillader programmører at arbejde med værdier af forskellige typer, såsom heltal, decimaltal, tekst og objekter.";

@@ -1,7 +1,7 @@
 ﻿using System.Text;
 
 List<Page> pages = new List<Page>();
-Page PageVariabler = new Page("Variabler");
+Page PageVariabler = new Page(MyNotes.PageVariabler1);
 Page PageDatatyper = new Page("Datatyper");
 Page PageArrays = new Page("Arrays");
 Page PageLister = new Page("Lister");
