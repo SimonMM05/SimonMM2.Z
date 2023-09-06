@@ -100,6 +100,20 @@ int firstNumber = numbers[0]; giver dig det første element i listen.
 5. Længde:
 Længden af en liste kan fås ved at bruge Count-egenskaben. For eksempel: int count = numbers.Count; 
 giver dig antallet af elementer i listen.
+
+Her et eksempel på brug af en liste:
+List<string> names = new List<string>();
+names.Add('Alice');
+names.Add('Bob');
+names.Add('Charlie');
+
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+
+int count = names.Count;
+Console.WriteLine('Total names:  count');
 ";
 
 public static string PageLoops =
@@ -167,6 +181,72 @@ Du kan bruge break til at afslutte et loop tidligt, hvis en bestemt betingelse e
 
 continue bruges til at springe den aktuelle iteration over og gå videre til næste iteration af loop.
 }
+";
+
+public static string PageMethods =
+@"
+I C# bruges metoder til at organisere og udføre opgaver i en struktureret og genbrugelig måde. 
+Metoder er en central del af objektorienteret programmering og hjælper med at opdele komplekse 
+opgaver i mindre, håndterbare dele. Her er en forklaring på, hvad metoder er, og hvordan de fungerer i C#:
+";
+
+public static string PageMethods2 =
+@"
+1. Metode Definition:
+En metode i C# er en blok kode, der udfører en bestemt opgave eller handling. Du definerer en 
+metode ved at angive dens navn, returtype, og eventuelle parametre den tager.
+
+Her er en simpel metodedefinition:
+public int Add(int a, int b)
+{
+    int sum = a + b;
+    return sum;
+}
+I dette eksempel er 'Add' metoden, der tager to heltal som parametre og returnerer et 
+heltal (summen af de to tal).
+
+2. Metodekald:
+For at udføre en metode skal du kalde den ved at bruge dens navn og eventuelle nødvendige argumenter.
+
+Eksempel på metodekald:
+int result = Add(5, 3);
+
+Her kaldes 'Add' metoden med argumenterne 5 og 3, og resultatet gemmes i variablen 'result.'
+
+3. Returtype:
+
+Hver metode har en returtype, der angiver, hvilken type data metoden returnerer. Hvis metoden 
+ikke returnerer nogen værdi, bruger du 'void' som returtype.
+I eksemplet ovenfor har 'Add' metoden en returtype 'int,' fordi den returnerer et heltal.
+
+4. Parametre:
+Metoder kan tage nul eller flere parametre, som er værdier eller objekter, der sendes til 
+metoden for at udføre dens opgave.
+Parametre angives i parenteserne efter metodenavnet.
+
+Eksempel:
+public void PrintMessage(string message)
+{
+    Console.WriteLine(message);
+}
+
+Her tager 'PrintMessage' metoden en parameter af typen 'string' kaldet 'message.''
+
+5. Return Statement:
+Hvis en metode har en returtype, skal den indeholde et 'return' statement for at returnere 
+en værdi af den påkrævede type.
+
+Eksempel:
+public int Multiply(int x, int y)
+{
+    return x * y;
+}
+Her returnerer 'Multiply' metoden produktet af de to inputværdier.
+
+Modifierer:
+
+Du kan tilføje forskellige modifierer til metode definitionen for at styre dens synlighed og adgangsniveau. Fælles modifierer 
+inkluderer 'public,'' 'private,' 'protected,' og 'internal.'
 ";
 
 }

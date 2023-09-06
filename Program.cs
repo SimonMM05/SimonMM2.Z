@@ -10,7 +10,8 @@ Page PageLister = new Page(MyNotes.PageLister);
 Page PageLister2 = new Page(MyNotes.PageLister2);
 Page PageLoops = new Page(MyNotes.PageLoops);
 Page PageLoops2 = new Page(MyNotes.PageLoops2);
-Page PageMethods = new Page("Methods");
+Page PageMethods = new Page(MyNotes.PageMethods);
+Page PageMethods2 = new Page(MyNotes.PageMethods2);
 Page PageClasses = new Page("Classes");
 
 pages.Add(PageVariabler);
@@ -23,6 +24,7 @@ pages.Add(PageLister2);
 pages.Add(PageLoops);
 pages.Add(PageLoops2);
 pages.Add(PageMethods);
+pages.Add(PageMethods2);
 pages.Add(PageClasses);
 
 Chapter Variabler = new Chapter("Variabler");
@@ -41,6 +43,7 @@ Loops.Pages.Add(PageLoops);
 Loops.Pages.Add(PageLoops2);
 Chapter Methods = new Chapter("Methods");
 Methods.Pages.Add(PageMethods);
+Methods.Pages.Add(PageMethods2);
 Chapter Classes = new Chapter("Classes");
 Classes.Pages.Add(PageClasses);
 
