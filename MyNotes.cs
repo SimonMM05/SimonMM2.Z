@@ -325,4 +325,3 @@ Klasser i C# understøtter OOP-koncepter som arv, polymorfi og abstrakte klasser
 hvilket gør det muligt at opbygge hierarkier af klasser og dele fælles funktionalitet.
 ";
 }
-
