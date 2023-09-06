@@ -27,8 +27,8 @@ List<Chapter> ReadChaptersFromDirectory(string directoryPath)
 
             foreach (string pageFile in pageFiles)
             {
-                string pageTitle = File.ReadAllText(pageFile);
-                chapter.Pages.Add(new Page(pageTitle));
+                string pageContent = File.ReadAllText(pageFile);
+                chapter.Pages.Add(new Page(pageContent));
             }
 
             chapters.Add(chapter);
