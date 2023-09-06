@@ -192,6 +192,8 @@ opgaver i mindre, håndterbare dele. Her er en forklaring på, hvad metoder er, 
 
 public static string PageMethods2 =
 @"
+Her er nogle grundlæggende oplysninger om Methods i C-Sharp:
+___________________________________________________________
 1. Metode Definition:
 En metode i C# er en blok kode, der udfører en bestemt opgave eller handling. Du definerer en 
 metode ved at angive dens navn, returtype, og eventuelle parametre den tager.
@@ -249,5 +251,78 @@ Du kan tilføje forskellige modifierer til metode definitionen for at styre dens
 inkluderer 'public,'' 'private,' 'protected,' og 'internal.'
 ";
 
+
+public static string PageClasses = 
+@"
+I C# er en klasse en grundlæggende byggesten i objektorienteret programmering (OOP). En klasse fungerer som en skabelon eller en blåtryk, 
+der definerer, hvordan objekter oprettes og fungerer. Her er en forklaring på, hvad klasser er, og hvordan de fungerer i C#:
+
+";
+
+public static string PageClasses2 =
+@"
+Her er nogle grundlæggende oplysninger om Classes i C-Sharp:
+___________________________________________________________
+1.  class definition 
+En klasse i C# er en brugerdefineret datatype, der definerer egenskaber (felter) og metoder (funktioner).
+Du definerer en klasse ved at bruge nøgleordet class efterfulgt af klasseens navn.
+
+Eksempel på klassedefinition:
+public class Person
+{
+    // Egenskaber (felter)
+    public string Name;
+    public int Age;
+
+    // Metoder
+    public void SayHello()
+    {
+        Console.WriteLine('Hello, my name is' + Name);
+    }
+
+}
+
+
+2. Objekter
+Når du har defineret en klasse, kan du oprette objekter (instanser) af den klasse. 
+Et objekt er en konkret forekomst af en klasse, der indeholder specifikke data og kan udføre metoder, 
+der er defineret i klassen.
+
+Eksempel på objekter:
+Person person1 = new Person();
+person1.Name = 'Alice';
+person1.Age = 30;
+
+
+3. Egenskaber
+En klasse definerer ofte egenskaber (felter), der beskriver tilstanden eller attributterne for objekterne.
+I eksemplet ovenfor har 'Person' klassen to egenskaber: 'Name' og 'Age.'
+
+
+4. Metoder
+En klasse indeholder også metoder, der beskriver, hvad objekter af klassen kan gøre.
+I eksemplet ovenfor har 'Person' klassen en metode kaldet 'SayHello,' der udskriver en hilsen med personens navn.
+
+
+5. Adgangsniveauer
+Du kan kontrollere adgangsniveauet for klassens medlemmer ved hjælp af nøgleord som public, private, protected, og internal.
+For eksempel kan du angive, om en egenskab skal være offentligt tilgængelig (public) eller kun tilgængelig inden for klassen (private).
+
+
+6. Constructers
+En klasse kan have en konstruktør, der bruges til at initialisere objekter, når de oprettes.
+
+Eksempel på en konstruktør:
+public Person(string name, int age)
+{
+    Name = name;
+    Age = age;
+}
+
+
+7. Arv og OOP-koncepter
+Klasser i C# understøtter OOP-koncepter som arv, polymorfi og abstrakte klasser, 
+hvilket gør det muligt at opbygge hierarkier af klasser og dele fælles funktionalitet.
+";
 }
 
