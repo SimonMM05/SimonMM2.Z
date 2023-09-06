@@ -33,7 +33,7 @@ Datatypen bool indeholder true or false / sandt eller falsk.
 
 public static string PageArrays =
 @"
-Selvfølgelig! I C# er et array en samling af elementer af samme datatyper, der er arrangeret i en sekvens 
+I C# er et array en samling af elementer af samme datatyper, der er arrangeret i en sekvens 
 og identificeret ved hjælp af indekser. Arrays giver dig mulighed for at gemme flere værdier af samme type
 under et enkelt navn og manipulere dem ved hjælp af indekser.";
 
@@ -68,6 +68,49 @@ Du kan ændre værdien af et element i et array ved at tildele en ny værdi til 
 
 5. Iteration gennem et Array
 Du kan bruge løkker som for eller foreach til at gennemgå alle elementer i et array og udføre operationer på dem.
+";
+
+public static string PageLister =
+@"
+I C# er en liste (List) en dynamisk samling af elementer, der kan vokse eller formindskes i størrelse efter behov. 
+Lister er en del af .NET Framework-klassen System.Collections.Generic og er meget nyttige, når du har brug for at gemme 
+en samling af elementer, som du ikke kender størrelsen på på forhånd. Her er nogle grundlæggende oplysninger om lister i C#:
+";
+
+public static string PageLister2 =
+@"
+Her er nogle grundlæggende oplysninger om Arrays i C-Sharp:
+___________________________________________________________
+1. Deklaration og initialisering:
+Du kan deklarere og initialisere en liste ved at bruge List<T>-klassen, hvor T repræsenterer typen af elementer, 
+du vil gemme i listen. For eksempel: List<int> numbers = new List<int>(); opretter en tom liste af heltal.
+
+2. Tilføjelse af Elementer:
+Du kan tilføje elementer til listen ved hjælp af Add-metoden. For eksempel: numbers.Add(42); tilføjer 
+tallet 42 til listen.
+
+3. Fjernelse af Elementer:
+Du kan fjerne elementer fra listen ved hjælp af Remove-metoden ved at angive værdien, der skal fjernes. 
+For eksempel: numbers.Remove(42); fjerner den første forekomst af værdien 42 fra listen.
+
+4. Indeksadgang:
+Elementer i en liste kan tilgås ved hjælp af indekser på samme måde som i et array. For eksempel: 
+int firstNumber = numbers[0]; giver dig det første element i listen.
+
+5. Længde:
+Længden af en liste kan fås ved at bruge Count-egenskaben. For eksempel: int count = numbers.Count; 
+giver dig antallet af elementer i listen.
+
+6. Søgning i Listen:
+Du kan søge efter elementer i listen ved hjælp af metoder som Contains, Find, og FindAll, 
+afhængigt af dine behov.
+
+7. Sortering og Manipulation:
+Lister giver også funktioner til at sortere, indlæse, og manipulere elementer på forskellige måder, 
+som f.eks. Sort, Reverse, Insert, og Clear.
+
+
+
 ";
 
 }

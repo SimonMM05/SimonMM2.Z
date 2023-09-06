@@ -6,8 +6,9 @@ Page PageDatatyper = new Page(MyNotes.PageDatatyper);
 Page PageDatatyper2 = new Page(MyNotes.PageDatatyper2);
 Page PageArrays = new Page(MyNotes.PageArrays);
 Page PageArrays2 = new Page(MyNotes.PageArrays2);
-Page PageLister = new Page("Lister");
-Page PageLoops = new Page("Loops");
+Page PageLister = new Page(MyNotes.PageLister);
+Page PageLoops = new Page(MyNotes.PageLoops);
+Page PageLoops2 = new Page(MyNotes.PageLoops);
 Page PageMethods = new Page("Methods");
 Page PageClasses = new Page("Classes");
 
