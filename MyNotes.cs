@@ -73,8 +73,8 @@ Du kan bruge løkker som for eller foreach til at gennemgå alle elementer i et 
 public static string PageLister =
 @"
 I C# er en liste (List) en dynamisk samling af elementer, der kan vokse eller formindskes i størrelse efter behov. 
-Lister er en del af .NET Framework-klassen System.Collections.Generic og er meget nyttige, når du har brug for at gemme 
-en samling af elementer, som du ikke kender størrelsen på på forhånd. Her er nogle grundlæggende oplysninger om lister i C#:
+Lister er en del af .NET Framework-klassen System.Collections.Generic og er meget nyttige, når du har brug for at gemme en 
+samling af elementer, som du ikke kender størrelsen på på forhånd. Her er nogle grundlæggende oplysninger om lister i C#:
 ";
 
 public static string PageLister2 =
@@ -100,17 +100,73 @@ int firstNumber = numbers[0]; giver dig det første element i listen.
 5. Længde:
 Længden af en liste kan fås ved at bruge Count-egenskaben. For eksempel: int count = numbers.Count; 
 giver dig antallet af elementer i listen.
+";
 
-6. Søgning i Listen:
-Du kan søge efter elementer i listen ved hjælp af metoder som Contains, Find, og FindAll, 
-afhængigt af dine behov.
+public static string PageLoops =
+@"
+I C# (og i de fleste programmeringssprog) bruges loops til at udføre gentagne handlinger eller en 
+blok af kode flere gange. Dette er nyttigt, når du ønsker at automatisere gentagne opgaver eller 
+behandle en række data. Der er forskellige typer løkker i C#, inklusive for, while, do-while, 
+og foreach. Her er en forklaring på hver type:
+";
 
-7. Sortering og Manipulation:
-Lister giver også funktioner til at sortere, indlæse, og manipulere elementer på forskellige måder, 
-som f.eks. Sort, Reverse, Insert, og Clear.
+public static string PageLoops2 =
+@"
+Her er nogle grundlæggende oplysninger om Arrays i C-Sharp:
+___________________________________________________________
+1. For-loops
+Et for-loop bruges til at udføre en blok kode et bestemt antal gange.
+Du angiver normalt en tæller, en betingelse for fortsættelse og en opdatering af tælleren.
+
+Eksempel:
+For (int i = 0; i < 5; i++)
+{
+    Console.Writeline(i);
+}
 
 
+2. While-loops
+Et While-loop udfører en blok kode, så længe en betingelse er sand.
+Betingelsen evalueres før udførelsen af blokken.
 
+Eksempel:
+int i = 0;
+while (i < 5)
+{
+    Console.WriteLine(i);
+    i++;
+}
+
+
+3. Do-While-loops
+Et do-while-loop udfører en blok kode mindst én gang, og derefter gentager den, så længe en betingelse er sand.
+Betingelsen evalueres efter udførelsen af blokken.
+
+Eksempel:
+int i = 0;
+do
+{
+    Console.WriteLine(i);
+    i++;
+} while (i < 5);
+
+
+4. Foreach-loop
+Et foreach-loop bruges til at gennemgå elementer i en samling (f.eks. et array eller en liste).
+Den er særligt nyttig, når du ikke har brug for at spore indekserne, men kun vil arbejde med elementerne.
+
+Eksempel:
+int[] numbers = { 1, 2, 3, 4, 5 };
+foreach (int num in numbers)
+{
+    Console.WriteLine(num);
+}
+
+5. Break og Continue
+Du kan bruge break til at afslutte et loop tidligt, hvis en bestemt betingelse er opfyldt.
+
+continue bruges til at springe den aktuelle iteration over og gå videre til næste iteration af loop.
+}
 ";
 
 }
