@@ -1,4 +1,6 @@
-﻿List<Page> pages = new List<Page>();
+﻿using System.Text;
+
+List<Page> pages = new List<Page>();
 Page PageVariabler = new Page("Variabler");
 Page PageDatatyper = new Page("Datatyper");
 Page PageArrays = new Page("Arrays");
@@ -15,13 +17,20 @@ pages.Add(PageLoops);
 pages.Add(PageMethods);
 pages.Add(PageClasses);
 
-Chapter Variabler = new Chapter("Variabler", pages);
-Chapter Datatyper = new Chapter("Datatyper", pages);
-Chapter Arrays = new Chapter("Arrays", pages);
-Chapter Lister = new Chapter("Lister", pages);
-Chapter Loops = new Chapter("Loops", pages);
-Chapter Methods = new Chapter("Methods", pages);
-Chapter Classes = new Chapter("Classes", pages);
+Chapter Variabler = new Chapter("Variabler");
+Variabler.Pages.Add(PageVariabler);
+Chapter Datatyper = new Chapter("Datatyper");
+Datatyper.Pages.Add(PageDatatyper);
+Chapter Arrays = new Chapter("Arrays");
+Arrays.Pages.Add(PageArrays);
+Chapter Lister = new Chapter("Lister");
+Lister.Pages.Add(PageLister);
+Chapter Loops = new Chapter("Loops");
+Loops.Pages.Add(PageLoops);
+Chapter Methods = new Chapter("Methods");
+Methods.Pages.Add(PageMethods);
+Chapter Classes = new Chapter("Classes");
+Classes.Pages.Add(PageClasses);
 
 List<Chapter> Chapters = new List<Chapter>();
 Chapters.Add(Variabler);
@@ -32,10 +41,9 @@ Chapters.Add(Loops);
 Chapters.Add(Methods);
 Chapters.Add(Classes);
 
-
 Book mybook = new Book("Programmerings noter", Chapters);
 
-//pause
-Console.ReadLine();
-
 mybook.Start();
+
+// Pause to keep the console window open
+Console.ReadLine();
