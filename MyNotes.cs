@@ -79,7 +79,7 @@ samling af elementer, som du ikke kender størrelsen på på forhånd. Her er no
 
 public static string PageLister2 =
 @"
-Her er nogle grundlæggende oplysninger om Arrays i C-Sharp:
+Her er nogle grundlæggende oplysninger om Lister i C-Sharp:
 ___________________________________________________________
 1. Deklaration og initialisering:
 Du kan deklarere og initialisere en liste ved at bruge List<T>-klassen, hvor T repræsenterer typen af elementer, 
@@ -126,7 +126,7 @@ og foreach. Her er en forklaring på hver type:
 
 public static string PageLoops2 =
 @"
-Her er nogle grundlæggende oplysninger om Arrays i C-Sharp:
+Her er nogle grundlæggende oplysninger om loops i C-Sharp:
 ___________________________________________________________
 1. For-loops
 Et for-loop bruges til at udføre en blok kode et bestemt antal gange.
