@@ -2,7 +2,8 @@
 
 List<Page> pages = new List<Page>();
 Page PageVariabler = new Page(MyNotes.PageVariabler1);
-Page PageDatatyper = new Page("Datatyper");
+Page PageDatatyper = new Page(MyNotes.PageDatatyper);
+Page PageDatatyper2 = new Page(MyNotes.PageDatatyper2);
 Page PageArrays = new Page("Arrays");
 Page PageLister = new Page("Lister");
 Page PageLoops = new Page("Loops");
@@ -11,6 +12,7 @@ Page PageClasses = new Page("Classes");
 
 pages.Add(PageVariabler);
 pages.Add(PageDatatyper);
+pages.Add(PageDatatyper2);
 pages.Add(PageArrays);
 pages.Add(PageLister);
 pages.Add(PageLoops);
@@ -21,6 +23,7 @@ Chapter Variabler = new Chapter("Variabler");
 Variabler.Pages.Add(PageVariabler);
 Chapter Datatyper = new Chapter("Datatyper");
 Datatyper.Pages.Add(PageDatatyper);
+Datatyper.Pages.Add(PageDatatyper2);
 Chapter Arrays = new Chapter("Arrays");
 Arrays.Pages.Add(PageArrays);
 Chapter Lister = new Chapter("Lister");
