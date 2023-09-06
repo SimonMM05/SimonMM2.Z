@@ -1,0 +1,35 @@
+Her er nogle grundlæggende oplysninger om Lister i C-Sharp:
+___________________________________________________________
+1. Deklaration og initialisering:
+Du kan deklarere og initialisere en liste ved at bruge List<T>-klassen, hvor T repræsenterer typen af elementer, 
+du vil gemme i listen. For eksempel: List<int> numbers = new List<int>(); opretter en tom liste af heltal.
+
+2. Tilføjelse af Elementer:
+Du kan tilføje elementer til listen ved hjælp af Add-metoden. For eksempel: numbers.Add(42); tilføjer 
+tallet 42 til listen.
+
+3. Fjernelse af Elementer:
+Du kan fjerne elementer fra listen ved hjælp af Remove-metoden ved at angive værdien, der skal fjernes. 
+For eksempel: numbers.Remove(42); fjerner den første forekomst af værdien 42 fra listen.
+
+4. Indeksadgang:
+Elementer i en liste kan tilgås ved hjælp af indekser på samme måde som i et array. For eksempel: 
+int firstNumber = numbers[0]; giver dig det første element i listen.
+
+5. Længde:
+Længden af en liste kan fås ved at bruge Count-egenskaben. For eksempel: int count = numbers.Count; 
+giver dig antallet af elementer i listen.
+
+Her et eksempel på brug af en liste:
+List<string> names = new List<string>();
+names.Add('Alice');
+names.Add('Bob');
+names.Add('Charlie');
+
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+
+int count = names.Count;
+Console.WriteLine('Total names:  count');

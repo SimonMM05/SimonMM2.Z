@@ -1,0 +1,4 @@
+I C# (og i de fleste programmeringssprog) bruges loops til at udføre gentagne handlinger eller en 
+blok af kode flere gange. Dette er nyttigt, når du ønsker at automatisere gentagne opgaver eller 
+behandle en række data. Der er forskellige typer løkker i C#, inklusive for, while, do-while, 
+og foreach. Her er en forklaring på hver type:

@@ -1,0 +1,14 @@
+Her er nogle eksempler på datatyper i C-sharp:
+______________________________________________
+
+String:
+Datatypen string indeholder linjer med tekst.
+
+Integer / Int:
+Dataypen Int indeholder hele tal.
+
+Float:
+Dataypen float indeholder kommatal med 6-9 decimaler.
+
+Bool:
+Datatypen bool indeholder true or false / sandt eller falsk.

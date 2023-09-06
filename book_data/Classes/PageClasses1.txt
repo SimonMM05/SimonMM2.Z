@@ -1,0 +1,2 @@
+I C# er en klasse en grundlæggende byggesten i objektorienteret programmering (OOP). En klasse fungerer som en skabelon eller en blåtryk, 
+der definerer, hvordan objekter oprettes og fungerer. Her er en forklaring på, hvad klasser er, og hvordan de fungerer i C#:

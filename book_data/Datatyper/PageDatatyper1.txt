@@ -1,0 +1,3 @@
+Datatyper i C# definerer typen af data, som en variabel kan indeholde. De bestemmer, hvordan data skal
+fortolkes, lagres og behandles i programmet. C# har to hovedkategorier af datatyper: værdityper (value types) og
+reference datatyper (reference types).

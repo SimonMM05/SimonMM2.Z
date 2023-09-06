@@ -1,0 +1,3 @@
+I C# bruges metoder til at organisere og udføre opgaver i en struktureret og genbrugelig måde. 
+Metoder er en central del af objektorienteret programmering og hjælper med at opdele komplekse 
+opgaver i mindre, håndterbare dele. Her er en forklaring på, hvad metoder er, og hvordan de fungerer i C#:

@@ -1,0 +1,2 @@
+Variabler i C# er navngivne opbevaringssteder, der bruges til at gemme og manipulere data i et program. 
+De tillader programmører at arbejde med værdier af forskellige typer, såsom heltal, decimaltal, tekst og objekter.

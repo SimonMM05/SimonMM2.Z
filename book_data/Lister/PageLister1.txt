@@ -1,0 +1,3 @@
+I C# er en liste (List) en dynamisk samling af elementer, der kan vokse eller formindskes i størrelse efter behov. 
+Lister er en del af .NET Framework-klassen System.Collections.Generic og er meget nyttige, når du har brug for at gemme en 
+samling af elementer, som du ikke kender størrelsen på på forhånd. Her er nogle grundlæggende oplysninger om lister i C#:

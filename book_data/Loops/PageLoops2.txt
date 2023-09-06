@@ -1,0 +1,54 @@
+Her er nogle grundlæggende oplysninger om loops i C-Sharp:
+___________________________________________________________
+1. For-loops
+Et for-loop bruges til at udføre en blok kode et bestemt antal gange.
+Du angiver normalt en tæller, en betingelse for fortsættelse og en opdatering af tælleren.
+
+Eksempel:
+For (int i = 0; i < 5; i++)
+{
+    Console.Writeline(i);
+}
+
+
+2. While-loops
+Et While-loop udfører en blok kode, så længe en betingelse er sand.
+Betingelsen evalueres før udførelsen af blokken.
+
+Eksempel:
+int i = 0;
+while (i < 5)
+{
+    Console.WriteLine(i);
+    i++;
+}
+
+
+3. Do-While-loops
+Et do-while-loop udfører en blok kode mindst én gang, og derefter gentager den, så længe en betingelse er sand.
+Betingelsen evalueres efter udførelsen af blokken.
+
+Eksempel:
+int i = 0;
+do
+{
+    Console.WriteLine(i);
+    i++;
+} while (i < 5);
+
+
+4. Foreach-loop
+Et foreach-loop bruges til at gennemgå elementer i en samling (f.eks. et array eller en liste).
+Den er særligt nyttig, når du ikke har brug for at spore indekserne, men kun vil arbejde med elementerne.
+
+Eksempel:
+int[] numbers = { 1, 2, 3, 4, 5 };
+foreach (int num in numbers)
+{
+    Console.WriteLine(num);
+}
+
+5. Break og Continue
+Du kan bruge break til at afslutte et loop tidligt, hvis en bestemt betingelse er opfyldt.
+
+continue bruges til at springe den aktuelle iteration over og gå videre til næste iteration af loop.

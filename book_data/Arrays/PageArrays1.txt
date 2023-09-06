@@ -1,0 +1,3 @@
+I C# er et array en samling af elementer af samme datatyper, der er arrangeret i en sekvens 
+og identificeret ved hjælp af indekser. Arrays giver dig mulighed for at gemme flere værdier af samme type
+under et enkelt navn og manipulere dem ved hjælp af indekser.
