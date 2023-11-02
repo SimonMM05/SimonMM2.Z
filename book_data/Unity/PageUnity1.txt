@@ -1,0 +1,4 @@
+Unity er en kraftfuld og populær spiludviklingsmotor, der bruges til at oprette spil, 
+simuleringer, interaktive 2D- og 3D-applikationer samt andre former for multimedieoplevelser. 
+Unity gør det muligt for udviklere at oprette software, der kan køre på forskellige platforme, 
+herunder pc'er, konsoller, mobiltelefoner, tablets og endda virtuelle og augmented reality-enheder.

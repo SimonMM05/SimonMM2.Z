@@ -1,0 +1,19 @@
+Her er nogle grundlæggende oplysninger om unity:
+___________________________________________________________
+1. Unity tilbyder avanceret 3D-renderingsteknologi, der giver udviklere mulighed for at oprette imponerende 
+grafik og visuelle effekter. Dette omfatter realtidsbelysning, skygger, partikelsystemer og animationer.
+
+2. Unity indeholder en indbygget fysikmotor, der muliggør realistisk simulering af fysiske objekters adfærd 
+i spillet. Dette er nyttigt for at oprette realistiske bevægelses- og kollisionsoplevelser.
+
+3. Unity giver dig mulighed for at integrere og styre lyd i dit spil. Dette omfatter 
+baggrundsmusik, lydeffekter og positionel lyd for at forbedre spiloplevelsen.
+
+4. En af Unitys største styrker er muligheden for at udvikle dit spil eller applikation én gang og derefter 
+distribuere det på forskellige platforme som Windows, macOS, iOS, Android, PlayStation, Xbox, og mange andre.
+
+5. Unity leveres med en brugervenlig redigeringsværktøj, der giver udviklere mulighed for at oprette, 
+redigere og organisere spilobjekter, scener og ressourcer nemt.
+
+6. Unity understøtter flere programmeringssprog, herunder C#, som ofte bruges til at implementere spillogik. 
+Dette giver udviklere fleksibilitet til at oprette avanceret funktionalitet.
